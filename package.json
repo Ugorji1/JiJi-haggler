@@ -1,0 +1,28 @@
+{
+  "name": "jiji-ai-haggler",
+  "version": "8.6.0",
+  "description": "Autonomous multi-seller AI marketplace negotiator and switchboard for Jiji.ng with Telegram approval gateway, Nigerian market heuristics, and sub-second Gemini reasoning.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "simulate": "node simulator.js"
+  },
+  "keywords": [
+    "jiji",
+    "marketplace",
+    "ai-agent",
+    "negotiation",
+    "gemini",
+    "telegram-bot",
+    "nigeria",
+    "userscript",
+    "tampermonkey"
+  ],
+  "author": "Azza Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
