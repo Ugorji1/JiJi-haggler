@@ -6,6 +6,20 @@ The haggler runs **concurrent, human-paced negotiations across multiple sellers 
 
 ---
 
+## 🎬 Live Demonstration
+
+Watch the AI Haggler autonomously scout listings, negotiate with multiple sellers concurrently, pace human-like responses, and send real-time deal approval cards to Telegram:
+
+<p align="center">
+  <video src="assets/demo.mp4" controls="controls" width="100%" style="max-height: 520px; border-radius: 8px;">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+> 📹 **Video File:** [`assets/demo.mp4`](assets/demo.mp4) (Click to play or download)
+
+---
+
 ## 🌟 Key Architecture & Capabilities
 
 ```
@@ -79,6 +93,8 @@ The haggler runs **concurrent, human-paced negotiations across multiple sellers 
 ├── package.json            # Project manifest & npm scripts
 ├── .env.example            # Environment template with credential instructions
 ├── .gitignore              # Ignores .env, node_modules, and runtime sessions.json
+├── assets/
+│   └── demo.mp4            # Live engine demonstration video
 └── public/
     ├── index.html          # Web testing dashboard & offline simulator UI
     └── mock-jiji-listing.html # Offline mock listing page for DOM testing
